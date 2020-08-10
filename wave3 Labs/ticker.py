@@ -13,6 +13,9 @@ headlines = ["Local Bear Eaten by Man",
 
 news_ticker = ""
 # write your loop here
-
-
+for i in range(140):
+    i = str(headlines)
+    print(i)
+    break
+news_ticker = 'i'
 print(news_ticker)

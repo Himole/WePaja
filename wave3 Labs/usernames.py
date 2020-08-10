@@ -16,6 +16,13 @@ names = ["Joey Tribbiani", "Monica Geller", "Chandler Bing", "Phoebe Buffay"]
 usernames = []
 
 # write your for loop here
+#for name in names:
+#    usernames.append(name)
 
+#for name in range(len(usernames)):
+#    usernames[name] = usernames[name].lower().replace("","_")
 
+for name in names:
+    name = name.casefold()
+    usernames.append(name.replace("","_"))
 print(usernames)

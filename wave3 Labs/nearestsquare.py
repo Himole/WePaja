@@ -6,6 +6,15 @@
 limit = 40
 
 # write your while loop here
+square_count = []
+for num in range(40):
+    if (num ** (.5) == int(num ** (.5))):
+        square_count.append(int(num))
+    #print(square_count)
+
+while max(square_count) < limit:
+    limit = max(square_count)
+    nearest_square = limit
 
 
 print(nearest_square)
