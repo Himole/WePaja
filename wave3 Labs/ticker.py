@@ -17,5 +17,5 @@ for i in range(140):
     i = str(headlines)
     print(i)
     break
-news_ticker = 'i'
+news_ticker = i
 print(news_ticker)
